@@ -9,7 +9,7 @@ def find_item_by_name_in_collection(name, collection)
     if collection[count][:item] == name
       return collection[count]
     end
-    counter += 1
+    count += 1
   # binding.pry
   end
   nil
