@@ -7,7 +7,7 @@ def find_item_by_name_in_collection(name, collection)
   count = 0
   while counter < collection.length
     if collection[count][:item] == name
-      return collection[count]   
+      return collection[count]
     end
     counter += 1
   # binding.pry
