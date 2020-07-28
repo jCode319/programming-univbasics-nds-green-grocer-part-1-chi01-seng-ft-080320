@@ -4,7 +4,12 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
-  binding.pry
+  count = 0
+  while counter < collection.length
+    collection[count]
+    counter += 1
+  # binding.pry
+  end
 end
 
 def consolidate_cart(cart)
