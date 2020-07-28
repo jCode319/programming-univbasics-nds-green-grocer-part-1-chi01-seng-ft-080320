@@ -6,10 +6,13 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
   count = 0
   while counter < collection.length
-    collection[count]
+    if collection[count][:item] == name
+      return collection[count]   
+    end
     counter += 1
   # binding.pry
   end
+  nil
 end
 
 def consolidate_cart(cart)
